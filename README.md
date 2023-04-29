@@ -1,4 +1,5 @@
 # CNN_LSTM_video_classification
+CNN-LSTM暴力视频鉴别，CNN-LSTM Violent video identification
 
 > dataset download: https://www.kaggle.com/datasets/mohamedmustafa/real-life-violence-situations-dataset
 
