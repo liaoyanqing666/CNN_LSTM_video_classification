@@ -27,10 +27,10 @@ Forward propagation: The idea is to use a CNN to extract features for each frame
 
 Backward propagation: In a CNN-LSTM model, each LSTM input is connected to a CNN and cannot be backpropagated (or is too difficult to do so), so a pre-trained CNN model on ImageNet is used instead, and only the LSTM is iterated.
 
-The length of each video is truncated to the same number of frames (can be set as a hyperparameter), and the frame features are extracted and fed into the LSTM to start training.
+1. The length of each video is truncated to the same number of frames (can be set as a hyperparameter), and the frame features are extracted and fed into the LSTM to start training.
 
-At this point, a fully connected layer should be connected to the LSTM's final output to facilitate backpropagation during training.
+2. At this point, a fully connected layer should be connected to the LSTM's final output to facilitate backpropagation during training.
 
-Once trained, the LSTM's output is saved to a CSV file, including the video features and labels.
+3. Once trained, the LSTM's output is saved to a CSV file, including the video features and labels.
 
-Different methods are used to classify the CSV file.
+4. Different methods are used to classify the CSV file.
