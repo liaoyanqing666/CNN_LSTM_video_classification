@@ -1,3 +1,4 @@
+# 计算三种不同激活函数下激活层的区别
 import torch
 from torch import nn
 from torch.utils.data import DataLoader, Dataset
