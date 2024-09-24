@@ -4,7 +4,7 @@
 
 ## 项目介绍
 
-本项目使用CNN2d-LSTM模型实现对暴力视频的鉴别任务
+本项目使用CNN2d-LSTM模型实现对暴力视频的鉴别任务，也可用于所有视频分类任务。
 
 前向传递思想：使用CNN提取每一帧特征，之后将提取出的所有特征送入LSTM计算视频特征，接着对视频特征采用不同方式进行分类。
 
@@ -21,7 +21,7 @@
 
 ## English translation of project introduction
 
-This project uses a CNN2d-LSTM model to perform the task of discriminating violent videos.
+This project uses a CNN2d-LSTM model to perform the task of discriminating violent videos, which can also be used for all video classification tasks.
 
 Forward propagation: The idea is to use a CNN to extract features for each frame, then feed all the extracted features into an LSTM to calculate the video features, and finally classify the video features using different methods.
 
